@@ -9,12 +9,14 @@
 #### WEB URI
 http://localhost:9870
 
-### TIPS 
+### Tips & Tricks
+```bash
 docker-compose ps
 docker-compose ps --services
 docker-compose logs namenode1
 docker-compose exec namenode1 /bin/bash
 docker-compose exec namenode1 hdfs dfs -ls /
+```
 
 ## References
 `Hadoop Version: 3.2.0`
