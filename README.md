@@ -1,6 +1,6 @@
 # numa-hdfs-ha
 
-### Download & Install
+### Download & Install & Running
 
 1. git clone https://github.com/abravo-stratio/numa-hdfs-ha.git && cd numa-hdfs-ha
 2. docker-compose up -d
@@ -17,6 +17,9 @@ docker-compose logs namenode1
 docker-compose exec namenode1 /bin/bash
 docker-compose exec namenode1 hdfs dfs -ls /
 ```
+### Tear down
+
+1. docker-compose down
 
 ## References
 `Hadoop Version: 3.2.0`
